@@ -1,0 +1,83 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .title {
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .container {
+        height: 65vh;
+        background-color: blanchedalmond;
+        display: flex;
+    }
+
+    .contacts {
+
+        height: 20vh;
+        background-color: gray;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+
+        background-color: aliceblue;
+        flex-basis: 150px;
+        height: 80%;
+        text-align: center;
+        padding-top: 12px;
+
+    }
+
+    .left {
+        width: 60%;
+    }
+.text {
+    
+height: 50%;
+text-align: center;
+padding-top: 12px;
+}
+    .down {
+        
+        height: 49%;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-around;
+    }
+
+    .more1,
+    .more2 {
+    background-color: rgb(236, 205, 120);
+        flex-basis: 45%;
+        height: 40%;
+        margin: auto;
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    .more3 {
+        background-color: rgb(236, 205, 120);
+        flex-basis: 95%;
+        height: 40%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 12px;
+    }
+.right {
+    width: 40%;
+    background-color: aquamarine;
+    text-align: center;
+}
